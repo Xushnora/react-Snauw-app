@@ -1,0 +1,45 @@
+/* >>>>>>>>>>>>>   MENTORS  <<<<<<<<<<<<<<<< */
+
+.mentors{
+    padding: 102px 0;
+}
+
+.mentors-item{
+    position: relative;
+}
+
+.mentors-title{
+    margin-bottom: 23px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.mentors-text{
+    width: 311px;
+    font-size: 14px;
+    line-height: 170%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mentors-title::before{
+    content: '';
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background-image: url('../../imgs/people.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -7px;
+    left: -60px;
+}
+
+.mentors-item:nth-child(2) .mentors-title::before{
+    background-image: url('../../imgs/mail.svg');
+}
+
+.mentors-item:nth-child(3) .mentors-title::before{
+    background-image: url('../../imgs/love.svg');
+}

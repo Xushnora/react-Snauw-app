@@ -1,0 +1,129 @@
+/* ----- COURSE ----- */
+
+#course{
+    padding: 85px 0 115px 0;
+}
+
+.course-heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-title{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.course-text{
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 84px;
+}
+
+.course-item{
+    width: 372px;
+    height: 530px;
+    background: linear-gradient(180deg, #202246 -53.38%, rgba(40, 43, 87, 0.31) 100%);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    padding: 40px;
+}
+
+.img-stars{
+    padding: 11px;
+    border: 1px solid aqua;
+    border-radius: 8px;
+}
+.img-key{
+    padding: 11px;
+    border: 1px solid #3BA7F5;
+    border-radius: 8px;
+}
+.img-crown{
+    padding: 11px;
+    border: 1px solid #F6844B;
+    border-radius: 8px;
+}
+
+
+.stars-in{
+    margin-left: 40px;
+}
+
+.stars-block{
+    margin-bottom: 40px;
+}
+.stars-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.money{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    color: #F5453D;
+}
+
+.number{
+    font-size: 28px;
+    line-height: 150%;
+    color: #F5453D;
+}
+
+.month{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.inner-list{
+    border-top: 1px solid  rgba(129, 129, 129, 0.4);
+    padding-top: 30px;
+    margin-bottom: 150px;
+}
+
+.inner-item{
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.inner-item::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 6px;
+}
+
+.inner-btn{
+    padding: 13px 50px;
+    border: 1px solid #F5453D;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #f5443b;
+    margin-left: 15px;
+}
+
+.inner-btn:hover{
+    background-color: #f5443b;
+    color: #fff;
+}

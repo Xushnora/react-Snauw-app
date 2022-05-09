@@ -1,0 +1,37 @@
+.App {
+  /* text-align: center; */
+}
+
+*, 
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #171836;
+    min-height: 100vh;
+}
+
+.container{
+    width: 1230px;
+    padding: 0 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.grow{
+  flex-grow: 1;
+}
+
